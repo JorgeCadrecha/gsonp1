@@ -40,7 +40,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder>{
 
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {                                                              //♠
         holder.titulo.setText(mData.get(position).getTitulo());
         holder.director.setText(mData.get(position).getDirector());
 

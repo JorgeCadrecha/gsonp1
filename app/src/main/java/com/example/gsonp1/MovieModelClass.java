@@ -12,7 +12,7 @@ public class MovieModelClass {
     public MovieModelClass() {
     }
 
-    public MovieModelClass(String titulo, String director, List<String> actores, String portada) {
+    public MovieModelClass(String titulo, String director, List<String> actores, String portada) {                                                                  //♠
         this.titulo = titulo;
         this.director = director;
         this.actores = actores;
